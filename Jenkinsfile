@@ -55,6 +55,12 @@ pipeline{
             }
         }
         
+       stage('Deploy')
+        {
+            steps{
+                echo "Deploy the code"
+            }
+        }
     }
 }
 
